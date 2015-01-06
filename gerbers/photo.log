@@ -5,7 +5,7 @@ Photoplot Log for 037760 Rev d
 (                                                                     )
 (    Drawing          : 08_037760d.brd                                )
 (    Software Version : 16.5S052                                      )
-(    Date/Time        : Fri Nov 07 03:57:15 2014                      )
+(    Date/Time        : Tue Jan 06 12:18:47 2015                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -39,7 +39,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                8.00
+  Undefined line width                2.00
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.00
@@ -48,16 +48,16 @@ Results from parameter file ...
   Suppress unconnected internal pads  NO
 
     WARNING: 0 width line found at (-5649.82 -4600.00)
-           ... using undefined line width of 8.00
+           ... using undefined line width of 2.00
 
     WARNING: Multiple 0 width lines; all will be treated the same as the first.
-           ... using undefined line width of 8.00
+           ... using undefined line width of 2.00
 
     WARNING: text composed 0 width line found at (9425.00 2500.00)
-           ... using undefined line width of 8.00
+           ... using undefined line width of 2.00
 
     WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
-           ... using undefined line width of 8.00
+           ... using undefined line width of 2.00
 
 
 
@@ -65,8 +65,10 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.00200                                  DARK 
   CIRCLE     0.00800                                  DARK 
   CIRCLE     0.01200                                  DARK 
+  CIRCLE     0.02000                                  DARK 
 
      fab1 created with warnings
 
@@ -78,7 +80,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                8.00
+  Undefined line width                2.00
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.00
@@ -92,6 +94,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.00200                                  DARK 
   CIRCLE     0.00800                                  DARK 
   CIRCLE     0.01200                                  DARK 
   CIRCLE     0.02500                                  DARK 
@@ -106,7 +109,7 @@ Results from parameter file ...
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                8.00
+  Undefined line width                2.00
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.00
@@ -120,8 +123,11 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.00200                                  DARK 
+  CIRCLE     0.00600                                  DARK 
   CIRCLE     0.00800                                  DARK 
   CIRCLE     0.01200                                  DARK 
+  CIRCLE     0.02000                                  DARK 
 
      assy1 created with warnings
 
@@ -147,6 +153,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.00600                                  DARK 
   CIRCLE     0.00800                                  DARK 
   CIRCLE     0.01000                                  DARK 
   CIRCLE     0.01200                                  DARK 
@@ -341,7 +348,7 @@ negative shape outline will be determined by Board Outline
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                8.00
+  Undefined line width                6.00
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.00
@@ -565,7 +572,7 @@ negative shape outline will be determined by Board Outline
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                8.00
+  Undefined line width                6.00
   Mirror code                         NONE
   Rotate angle                        NONE
   Offset x:                           0.00
@@ -580,12 +587,13 @@ negative shape outline will be determined by Board Outline
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
   CIRCLE     0.00200                                  DARK 
+  CIRCLE     0.00400                                  DARK 
   CIRCLE     0.00500                                  DARK 
   CIRCLE     0.00600                                  DARK 
   CIRCLE     0.00800                                  DARK 
   CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.02000                                  DARK 
   CIRCLE     0.02500                                  DARK 
-  CIRCLE     0.06000                                  DARK 
 
      silk_sec created with warnings
 
@@ -597,8 +605,8 @@ negative shape outline will be determined by Board Outline
 
   FILM PARAMETERS :
   ---------------------------------------------------------
-  Undefined line width                8.00
-  Mirror code                         NONE
+  Undefined line width                2.00
+  Mirror code                         X
   Rotate angle                        NONE
   Offset x:                           0.00
   Offset y:                           0.00
@@ -611,6 +619,7 @@ negative shape outline will be determined by Board Outline
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.00200                                  DARK 
   CIRCLE     0.00800                                  DARK 
   CIRCLE     0.01200                                  DARK 
 
